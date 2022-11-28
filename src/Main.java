@@ -40,7 +40,7 @@ public class Main {
                 int width = scanner.nextInt();
                 System.out.println("Length");
                 int length = scanner.nextInt();
-                if (height > 0 || width > 0 || length > 0) {
+                if (height > 0 && width > 0 && length > 0) {
 
                     parallelepipedtin.formula2(height, length, width);
 
